@@ -3,7 +3,7 @@
 > Intelligent AI Engineering Learning Skill - Automatic context analysis, direct to core, automatic knowledge distillation after conversation ends.
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-blue)](https://claude.ai/code)
-[![Version](https://img.shields.io/badge/version-2.0-green)](https://github.com/yourusername/ai-tech-learn)
+[![Version](https://img.shields.io/badge/version-2.0-green)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ---
@@ -360,7 +360,7 @@ graph TD
 1. **Clone or download this skill**:
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/yourusername/ai-tech-learn.git
+git clone https://github.com/longhuang1997-cpu/AI-Tech-Learn.git
 ```
 
 2. **Configure your vault path** (in SKILL.md):
@@ -490,7 +490,7 @@ QUALITY_REQUIREMENTS = {
 
 Contributions are welcome! Here's how you can help:
 
-1. **Report Issues**: Found a bug? [Open an issue](https://github.com/yourusername/ai-tech-learn/issues)
+1. **Report Issues**: Found a bug? [Open an issue](https://github.com/longhuang1997-cpu/AI-Tech-Learn/issues)
 2. **Suggest Features**: Have ideas? Share them in issues
 3. **Submit PRs**: 
    - Fork the repo
@@ -517,9 +517,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📮 Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ai-tech-learn/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ai-tech-learn/discussions)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/longhuang1997-cpu/AI-Tech-Learn/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/longhuang1997-cpu/AI-Tech-Learn/discussions)
+- **Email**: longhuang1997@gmail.com
 
 ---
 
