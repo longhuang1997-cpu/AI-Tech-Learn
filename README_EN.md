@@ -101,16 +101,29 @@ Activated when user says any of these keywords:
 
 ## 🔄 Execution Flow
 
-### Phase 1: Smart Context Analysis (Automatic, User-Transparent)
-
 ```mermaid
 graph TD
-    A[User Triggers] --> B[Scan Related Memory]
-    B --> C[Check Today's Learning History]
-    C --> D[Locate Related Code/Projects]
-    D --> E[Extract Open Issues]
-    E --> F[Generate Context Report]
-    F --> G[Cut Directly to Core]
+    A[User Triggers] --> B[Phase 1: Smart Context Analysis]
+    B --> B1[Scan .claude/memory/]
+    B --> B2[Read today's learning history]
+    B --> B3[Locate related code]
+    B --> B4[Extract open issues]
+    B1 & B2 & B3 & B4 --> C[Cut directly to core]
+
+    C --> D[Phase 2: Free Conversation + Background Recording]
+    D --> D1[Tech points: What/Why/How/Pitfalls]
+    D --> D2[Decision comparisons]
+    D --> D3[Diagram needs]
+
+    D1 & D2 & D3 --> E[Phase 3: Auto-generate document]
+    E --> F{User confirms}
+    F -->|Confirm| G[Save to Obsidian]
+    F -->|Modify| E
+    F -->|Discard| H[Skip]
+
+    G --> I[Phase 4: Knowledge flow check]
+    I --> I1[Extract to methodology library?]
+    I --> I2[Build memory bridge?]
 ```
 
 **Specific Operations**:
