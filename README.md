@@ -453,14 +453,25 @@ Current config: 0.3 vector + 0.7 BM25
 
 ### Customizing Save Locations
 
-Edit `SKILL.md` to customize where documents are saved:
+The skill uses **relative paths inside your vault** — no hardcoded user directories.
+Defaults follow a standard Obsidian folder structure and work out of the box.
 
-```markdown
-# Default paths
-LEARNING_DIALOGUE_PATH = "30_Learning/AI_Engineering_Dialogue/"
-PROJECT_WIKI_PATH = "10_Work/Product/{project_name}/Wiki/"
+You can override the methodology library path with an environment variable:
+
+```bash
+# Optional: override default methodology directory
+export AI_TECH_METHODOLOGY_DIR="/path/to/your/methodology/folder"
+```
+
+Default path mapping (all relative to your vault root):
+
+```
+LEARNING_DIALOGUE_PATH  = "30_Learning/AI_Engineering_Dialogue/"
+PROJECT_WIKI_PATH       = "10_Work/Product/{project_name}/Wiki/"
 CAPABILITY_LIBRARY_PATH = "04_AI_Capability_Library/Methodology/"
 ```
+
+If your vault uses different folder names, update these values in `SKILL.md`.
 
 ### Customizing Quality Standards
 

@@ -2,7 +2,7 @@
 name: ai-tech-learn
 description: AI工程技术学习——智能上下文分析+自动沉淀+一键确认
 version: 2.0.0
-author: huangl265
+author: community
 tags: [learning, ai-engineering, knowledge-management, intelligent]
 ---
 
@@ -720,7 +720,7 @@ graph TD
 import subprocess
 import os
 
-methodology_dir = os.path.expanduser("~/Documents/Obsidian Vault/04_AI_能力库/范式库")
+methodology_dir = os.environ.get("AI_TECH_METHODOLOGY_DIR") or os.path.expanduser("~/Documents/Obsidian Vault/04_AI_Methodology_Library")
 script_path = os.path.expanduser("~/.claude/skills/ai-tech-learn/health_check.py")
 
 result = subprocess.run(
