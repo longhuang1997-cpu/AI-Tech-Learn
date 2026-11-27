@@ -1,0 +1,3 @@
+# AI Tech Learn scripts — standard library only, no extra packages needed
+# health_check_v2.py     → stdlib: os, re, datetime, pathlib, collections
+# frontmatter_standardize.py → stdlib: os, re, sys, shutil, pathlib, datetime
