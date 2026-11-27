@@ -1,9 +1,9 @@
-# AI Tech Learn v2.0
+# AI Tech Learn v1.0
 
 > 智能AI工程学习 Skill——自动分析上下文，直接切入核心，对话结束自动沉淀。
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-blue)](https://claude.ai/code)
-[![Version](https://img.shields.io/badge/version-2.0-green)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
+[![AI Agent](https://img.shields.io/badge/AI-Agent_Skill-blue)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
+[![Version](https://img.shields.io/badge/version-1.0-green)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **语言 / Language**：[中文](#) · [English](README_EN.md)
@@ -12,7 +12,7 @@
 
 ## 🎯 这是什么
 
-AI Tech Learn 是一个 Claude Code Skill，把每次技术讨论自动转化成**可复用的知识资产**。
+AI Tech Learn 是一个 AI Agent Skill，把每次技术讨论自动转化成**可复用的知识资产**。
 
 它做三件事：
 1. **问之前**：自动扫描你的记忆、代码、项目历史，直接切入核心，不问废话
@@ -36,14 +36,14 @@ AI Tech Learn 是一个 Claude Code Skill，把每次技术讨论自动转化成
 ### 1. 安装
 
 ```bash
-# 克隆到 Claude Code skills 目录
+# 克隆到 AI Agent skills 目录
 cd ~/.claude/skills
 git clone https://github.com/longhuang1997-cpu/AI-Tech-Learn.git ai-tech-learn
 ```
 
 ### 2. 触发方式
 
-在 Claude Code 对话中，说以下任意一种：
+在 AI Agent 对话中，说以下任意一种：
 
 ```
 /ai-tech-learn
@@ -104,7 +104,7 @@ graph TD
 AI-Tech-Learn/
 ├── README.md                        ← 中文文档（本文件）
 ├── README_EN.md                     ← English docs
-├── SKILL.md                         ← Claude Code skill 定义（核心）
+├── SKILL.md                         ← AI Agent skill 定义（核心）
 ├── LICENSE                          ← MIT
 ├── scripts/
 │   ├── health_check_v2.py           ← 知识库健康检查工具

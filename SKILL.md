@@ -1,16 +1,16 @@
 ---
 name: ai-tech-learn
 description: AI工程技术学习——智能上下文分析+自动沉淀+一键确认
-version: 2.0.0
+version: 1.0.0
 author: community
 tags: [learning, ai-engineering, knowledge-management, intelligent]
 ---
 
-# AI Tech Learn v2.0
+# AI Tech Learn v1.0
 
 智能AI工程学习skill——自动分析上下文，直接切入核心，对话结束自动沉淀。
 
-## 核心升级（v2.0）
+## 核心功能
 
 ### 🧠 智能上下文分析（新）
 **在用户提问前，自动执行**：
@@ -79,7 +79,7 @@ tags: [learning, ai-engineering, knowledge-management, intelligent]
   - 沉淀位置：`10_Work/Product/[项目名]/Wiki/`
   - 同时：追加到今天的学习文档（如果有）
 
-## v2.0 执行流程
+## 执行流程
 
 ### Phase 1: 智能上下文分析（自动执行，用户无感）
 
@@ -360,7 +360,7 @@ graph TD
 - [[]] - 
 ```
 
-## 质量标准（v2.0）
+## 质量标准
 
 **自动生成的文档必须包含**：
 - ✅ 至少1个Mermaid架构图（自动识别需要画图的地方）

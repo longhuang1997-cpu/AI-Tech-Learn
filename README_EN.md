@@ -1,9 +1,9 @@
-# AI Tech Learn v2.0
+# AI Tech Learn v1.0
 
 > Intelligent AI Engineering Learning Skill - Automatic context analysis, direct to core, automatic knowledge distillation after conversation ends.
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-blue)](https://claude.ai/code)
-[![Version](https://img.shields.io/badge/version-2.0-green)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
+[![AI Agent](https://img.shields.io/badge/AI-Agent_Skill-blue)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
+[![Version](https://img.shields.io/badge/version-1.0-green)](https://github.com/longhuang1997-cpu/AI-Tech-Learn)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **Language / 语言**：[English](#) · [中文](README.md)
@@ -12,7 +12,7 @@
 
 ## 🎯 What is AI Tech Learn?
 
-AI Tech Learn is an intelligent learning companion skill for Claude Code that transforms technical discussions into structured, reusable knowledge assets. It automatically analyzes conversation context, extracts technical insights, and generates comprehensive learning documentation without manual intervention.
+AI Tech Learn is an intelligent learning companion skill for AI Agents that transforms technical discussions into structured, reusable knowledge assets. It automatically analyzes conversation context, extracts technical insights, and generates comprehensive learning documentation without manual intervention.
 
 ### Key Features
 
@@ -24,7 +24,7 @@ AI Tech Learn is an intelligent learning companion skill for Claude Code that tr
 
 ---
 
-## 🚀 Core Upgrades (v2.0)
+## 🚀 Core Features
 
 ### 🧠 Smart Context Analysis (New)
 
@@ -99,7 +99,7 @@ Activated when user says any of these keywords:
 
 ---
 
-## 🔄 v2.0 Execution Flow
+## 🔄 Execution Flow
 
 ### Phase 1: Smart Context Analysis (Automatic, User-Transparent)
 
@@ -303,7 +303,7 @@ graph TD
 
 ---
 
-## 🎓 Quality Standards (v2.0)
+## 🎓 Quality Standards
 
 **Auto-generated doc must include**:
 - ✅ At least 1 Mermaid architecture diagram (auto-identifies where diagrams needed)
@@ -354,7 +354,7 @@ graph TD
 ## 📦 Installation
 
 ### Prerequisites
-- Claude Code CLI installed
+- An AI Agent (any compatible assistant)
 - Obsidian vault for knowledge management (recommended)
 
 ### Setup
@@ -522,7 +522,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built for [Claude Code](https://claude.ai/code)
+- Works with any AI Agent skill system
 - Inspired by the Zettelkasten method and knowledge management best practices
 - Thanks to all contributors and users
 
@@ -574,4 +574,4 @@ Command-triggered scan of methodology library health metrics and generate report
 
 ---
 
-Made with ❤️ by the Claude Code community
+Made with ❤️ by the community
